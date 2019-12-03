@@ -20,7 +20,7 @@ std::string token_dropper(std::string exp, char* delim)
 		for (int i = 0; i < chars.size(); i++)
 		{
 			if (*iterators == chars[i]) 
-				*iterators = ' '; 
+				*iterators = ' '; //bring forth the sacrificed tokens!
 		}
 
 		iterators++;
